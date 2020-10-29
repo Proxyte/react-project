@@ -7,6 +7,33 @@
   pointer-events: none;
 }
 
+.AppRouteTab {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.AppRouteTab ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  justify-content: center;
+}
+
+.AppRouteTab ul li {
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.AppRouteTab ul li a {
+  color: blue;
+  text-decoration: underline;
+}
+
+.AppRouteTab ul li a.active {
+  font-weight: bold;
+  color: red;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
